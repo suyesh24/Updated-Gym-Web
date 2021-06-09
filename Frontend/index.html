@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartans Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css " rel="stylesheet">
+    <!--Bootstarp Code-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <img src="Gym.png" alt="logo">
+            <a href="#home" id="navbar__logo">Spartans Fitness</a>
+        
+        <div class="navbar__toggle" id="mobile-menu"> 
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="#home" class="navbar__links" id="home_page">Home</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#ourservices" class="navbar__links" id="oursevices_page">Our Services</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#blogs" class="navbar__links" id="blogs_page">Blogs</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="#join-now" class="button" id="joinnow_page">Join Now</a>
+            </li>
+          </ul>
+        </div>  
+    </nav>
+    <!--Hero Section-->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"><strong>We can give you</strong></h1>
+            <h2 class= "hero__heading"><strong> More Than Others</strong></h2>
+        </div>
+    </div>
+   
+     <!-- Our Services Section -->
+     <div class="services" id="ourservices">
+        <h1><strong>Our Services</Strong></h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <img src="PT.jpg" >
+                <h2>Advanced Personal Trainning Courses</h2>
+                <div class="services__btn"></div>
+            </div>
+            <div class="services__card">
+                <img src="yoga.jpg">
+                <h2>Group Activities</h2>
+                <p>Yoga, Zumba, Full Body Fusion.... </p>
+                <div class="services__btn"></div>
+            </div>
+            <div class="services__card">
+                <img src="cardio.jpg">
+                <h2>Cardio Sessions With Proffesional Trainers</h2>                
+                <div class="services__btn"></div>
+            </div>
+            <div class="services__card">
+                <img src="BMI.png" >
+                <h2>Weekly BMI Checkup and Diet Consultation </h2>               
+            </div>
+        </div>
+    </div>
+    <!--Blogs Section-->
+    <div class="blogs" id="blogs">
+        <div class="blogs__container">
+            <div class="blogs__description">
+            <h1><strong>Latest Blogs</strong></h1>
+            <h2><strong>HOW DO I CUT DOWN BELLY FAT?</strong></h2>
+               <p ><strong> ‘Abs Are Made In The Kitchen’. How Many Times Have You Heard Or Seen 
+                   This Quote While Browsing On How To Lose Belly Fat Fast?  This Holds True,
+                    Without A Proper Diet With The Proper Foods, You Will Not Achieve Those Six Pack 
+                    Abs That You Crave So Much. But What Foods Should You Consume?
+                    Our Digestive System Is Also Known As Our Second Brain, It Is At The Very Center
+                    Of Our Core Health. Optimal Gut Bacterial Environment And Digestive System Function
+                    Is The Key To A Healthier Body. You Could Be Eating The Cleanest Nutrition Rich Foods
+                     But If Your Body Doesn’t Digest It Properly, No Nutrients Are Absorbed. Resulting In,
+                     Fat Built Up And Water Retention.
+                    Even If You Have A Healthy Weight, Fat Around The Midsection Can Impose Health Risks In The Future. 
+                    Belly Fat Is Quite Stubborn And Cannot Be Shed Off Easily. That Is Why You Need To Find The Right 
+                    Combination Of A Good Workout Routine With The Proper Diet Friendly Foods Which Is The Fastest Way
+                    To Lose Belly Fat.</strong> </p>
+        </div>
+    </div>
+</div>
+    <!--Join now Section-->
+    <div class="main" id="join-now">
+        <div class="main__container">
+            <div class="main__content">
+                <h1><strong>SPECIAL OFFER</strong></h1>
+                <h2>Buy A Spartans Fitness Membership Today</h2>
+                <p>Start Your Fitness Journey Today </p>
+                <button class="main__btn" data-toggle="modal" data-target="#exampleModalCenter"><a href="#modal">Join Now</a></button>
+
+            </div>
+            </div>         
+        </div>
+    </div>
+
+    <!--Modal Section-->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Join Now</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label  class="col-form-label">Name:</label>
+                  <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                  <label  class="col-form-label">Mobile:</label>
+                  <input type="text" class="form-control" id="mobile">
+                </div>
+                <div class="form-group">
+                    <label  class="col-form-label">Mail Id:</label>
+                    <input type="text" class="form-control" id="name">
+                  </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer Section -->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/join-us">Our Team</a>
+                <a href="/join-us">Testimonials</a>
+                <a href="/join-us">Work Culture</a>
+                <a href="/join-us">Events</a>
+                <a href="/join-us">Amazing Offerss</a>
+                <a href="/join-us">Group Program</a>
+            </div>
+
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/join-us">Mobile</a>
+                <a href="/join-us">Email</a>
+
+            </div>
+        </div>
+    </div>
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo">Spartans Fitness </a>
+            </div>
+            <p class="website__rights">© Spartans Fitness 2021. All rights reserved</p>
+            <div class="social__icons">
+                <a href="/" target="blank" class="social_icon--link"><i class="fab fa-linkedin"></i></a>
+                <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="social__icon--link"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src = "app.js"></script>
+    
+</body>
+</html>
